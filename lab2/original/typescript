@@ -1,0 +1,189 @@
+Script started on Fri 07 Sep 2018 10:08:10 AM EDT
+[?1034h[1;32mstewarrt@polaris[m:[1;34m~/cs141/lab2/original[m$ exitg++ file3.cpp -o filee3[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pvim file3.cpp 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg++ file3.cpp -o filee3[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K./test.sh 
+--2018-09-07 10:08:19--  http://tars.clarkson.edu/cs141/lab2/file0.cpp
+Resolving tars.clarkson.edu (tars.clarkson.edu)... 128.153.4.54
+Connecting to tars.clarkson.edu (tars.clarkson.edu)|128.153.4.54|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://tars.clarkson.edu/cs141/lab2/file0.cpp [following]
+--2018-09-07 10:08:19--  https://tars.clarkson.edu/cs141/lab2/file0.cpp
+Connecting to tars.clarkson.edu (tars.clarkson.edu)|128.153.4.54|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 285
+Saving to: ‘file0.cpp.1’
+
+ 0% [                                       ] 0           --.-K/s              100%[======================================>] 285         --.-K/s   in 0s      
+
+2018-09-07 10:08:19 (23.9 MB/s) - ‘file0.cpp.1’ saved [285/285]
+
+[01m[Kfile0.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[Kfile0.cpp:10:13:[m[K [01;31m[Kerror: [m[Kassignment of read-only variable ‘[01m[KnumBananas[m[K’
+  numBananas = 20;
+[01;32m[K             ^[m[K
+[01m[Kfile0.cpp:11:12:[m[K [01;31m[Kerror: [m[Kassignment of read-only variable ‘[01m[KnumApples[m[K’
+  numApples = 5;
+[01;32m[K            ^[m[K
+[01m[Kfile0.cpp:15:33:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator>>[m[K’ (operand types are ‘[01m[Kstd::basic_ostream<char>[m[K’ and ‘[01m[Kint[m[K’)
+  std::cout << "Total fruits = " >> totalFruits << std::endl;
+[01;32m[K                                 ^[m[K
+[01m[Kfile0.cpp:15:33:[m[K [01;36m[Knote: [m[Kcandidates are:
+In file included from [01m[K/usr/include/c++/4.8.2/iostream:40:0[m[K,
+                 from [01m[Kfile0.cpp:1[m[K:
+[01m[K/usr/include/c++/4.8.2/istream:779:5:[m[K [01;36m[Knote: [m[Ktemplate<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char*)
+     operator>>(basic_istream<char, _Traits>& __in, signed char* __s)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/4.8.2/istream:779:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[Kfile0.cpp:15:36:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kstd::basic_istream<char, _Traits>[m[K’
+  std::cout << "Total fruits = " >> totalFruits << std::endl;
+[01;32m[K                                    ^[m[K
+In file included from [01m[K/usr/include/c++/4.8.2/iostream:40:0[m[K,
+                 from [01m[Kfile0.cpp:1[m[K:
+[01m[K/usr/include/c++/4.8.2/istream:774:5:[m[K [01;36m[Knote: [m[Ktemplate<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char*)
+     operator>>(basic_istream<char, _Traits>& __in, unsigned char* __s)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/4.8.2/istream:774:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[Kfile0.cpp:15:36:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kstd::basic_istream<char, _Traits>[m[K’
+  std::cout << "Total fruits = " >> totalFruits << std::endl;
+[01;32m[K                                    ^[m[K
+In file included from [01m[K/usr/include/c++/4.8.2/iostream:40:0[m[K,
+                 from [01m[Kfile0.cpp:1[m[K:
+[01m[K/usr/include/c++/4.8.2/istream:732:5:[m[K [01;36m[Knote: [m[Ktemplate<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char&)
+     operator>>(basic_istream<char, _Traits>& __in, signed char& __c)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/4.8.2/istream:732:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[Kfile0.cpp:15:36:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kstd::basic_istream<char, _Traits>[m[K’
+  std::cout << "Total fruits = " >> totalFruits << std::endl;
+[01;32m[K                                    ^[m[K
+In file included from [01m[K/usr/include/c++/4.8.2/iostream:40:0[m[K,
+                 from [01m[Kfile0.cpp:1[m[K:
+[01m[K/usr/include/c++/4.8.2/istream:727:5:[m[K [01;36m[Knote: [m[Ktemplate<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char&)
+     operator>>(basic_istream<char, _Traits>& __in, unsigned char& __c)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/4.8.2/istream:727:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[Kfile0.cpp:15:36:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kstd::basic_istream<char, _Traits>[m[K’
+  std::cout << "Total fruits = " >> totalFruits << std::endl;
+[01;32m[K                                    ^[m[K
+In file included from [01m[K/usr/include/c++/4.8.2/istream:882:0[m[K,
+                 from [01m[K/usr/include/c++/4.8.2/iostream:40[m[K,
+                 from [01m[Kfile0.cpp:1[m[K:
+[01m[K/usr/include/c++/4.8.2/bits/istream.tcc:931:5:[m[K [01;36m[Knote: [m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT&)
+     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT& __c)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/4.8.2/bits/istream.tcc:931:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[Kfile0.cpp:15:36:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout << "Total fruits = " >> totalFruits << std::endl;
+[01;32m[K                                    ^[m[K
+In file included from [01m[K/usr/include/c++/4.8.2/istream:882:0[m[K,
+                 from [01m[K/usr/include/c++/4.8.2/iostream:40[m[K,
+                 from [01m[Kfile0.cpp:1[m[K:
+[01m[K/usr/include/c++/4.8.2/bits/istream.tcc:963:5:[m[K [01;36m[Knote: [m[Ktemplate<class _CharT2, class _Traits2> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT2*)
+     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT* __s)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/4.8.2/bits/istream.tcc:963:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[Kfile0.cpp:15:36:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout << "Total fruits = " >> totalFruits << std::endl;
+[01;32m[K                                    ^[m[K
+In file included from [01m[K/usr/include/c++/4.8.2/string:53:0[m[K,
+                 from [01m[K/usr/include/c++/4.8.2/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/4.8.2/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/4.8.2/ios:42[m[K,
+                 from [01m[K/usr/include/c++/4.8.2/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/4.8.2/iostream:39[m[K,
+                 from [01m[Kfile0.cpp:1[m[K:
+[01m[K/usr/include/c++/4.8.2/bits/basic_string.tcc:996:5:[m[K [01;36m[Knote: [m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator>>(basic_istream<_CharT, _Traits>& __in,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/4.8.2/bits/basic_string.tcc:996:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[Kfile0.cpp:15:36:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout << "Total fruits = " >> totalFruits << std::endl;
+[01;32m[K                                    ^[m[K
+--2018-09-07 10:08:19--  http://tars.clarkson.edu/cs141/lab2/file1.cpp
+Resolving tars.clarkson.edu (tars.clarkson.edu)... 128.153.4.54
+Connecting to tars.clarkson.edu (tars.clarkson.edu)|128.153.4.54|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://tars.clarkson.edu/cs141/lab2/file1.cpp [following]
+--2018-09-07 10:08:19--  https://tars.clarkson.edu/cs141/lab2/file1.cpp
+Connecting to tars.clarkson.edu (tars.clarkson.edu)|128.153.4.54|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 127
+Saving to: ‘file1.cpp.1’
+
+ 0% [                                       ] 0           --.-K/s              100%[======================================>] 127         --.-K/s   in 0s      
+
+2018-09-07 10:08:20 (10.3 MB/s) - ‘file1.cpp.1’ saved [127/127]
+
+[01m[Kfile1.cpp:1:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kinclude[m[K’ does not name a type
+ include<iostream>
+[01;32m[K ^[m[K
+--2018-09-07 10:08:20--  http://tars.clarkson.edu/cs141/lab2/file2.cpp
+Resolving tars.clarkson.edu (tars.clarkson.edu)... 128.153.4.54
+Connecting to tars.clarkson.edu (tars.clarkson.edu)|128.153.4.54|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://tars.clarkson.edu/cs141/lab2/file2.cpp [following]
+--2018-09-07 10:08:20--  https://tars.clarkson.edu/cs141/lab2/file2.cpp
+Connecting to tars.clarkson.edu (tars.clarkson.edu)|128.153.4.54|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 220
+Saving to: ‘file2.cpp.1’
+
+ 0% [                                       ] 0           --.-K/s              100%[======================================>] 220         --.-K/s   in 0s      
+
+2018-09-07 10:08:20 (18.2 MB/s) - ‘file2.cpp.1’ saved [220/220]
+
+--2018-09-07 10:08:20--  http://tars.clarkson.edu/cs141/lab2/file3.cpp
+Resolving tars.clarkson.edu (tars.clarkson.edu)... 128.153.4.54
+Connecting to tars.clarkson.edu (tars.clarkson.edu)|128.153.4.54|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://tars.clarkson.edu/cs141/lab2/file3.cpp [following]
+--2018-09-07 10:08:20--  https://tars.clarkson.edu/cs141/lab2/file3.cpp
+Connecting to tars.clarkson.edu (tars.clarkson.edu)|128.153.4.54|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 288 [text/plain]
+Saving to: ‘file3.cpp.1’
+
+ 0% [                                       ] 0           --.-K/s              100%[======================================>] 288         --.-K/s   in 0s      
+
+2018-09-07 10:08:20 (18.5 MB/s) - ‘file3.cpp.1’ saved [288/288]
+
+[01m[Kfile3.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[Kfile3.cpp:8:31:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kx[m[K’
+  float circumference = 2 * PI x radius;
+[01;32m[K                               ^[m[K
+[01m[Kfile3.cpp:12:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope
+  std:cout << "The circumference is " << circumfrence << std::endl;
+[01;32m[K      ^[m[K
+[01m[Kfile3.cpp:12:6:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[Kfile3.cpp:1:0[m[K:
+[01m[K/usr/include/c++/4.8.2/iostream:61:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::cout[m[K’
+   extern ostream cout;  /// Linked to standard output
+[01;32m[K                  ^[m[K
+[01m[Kfile3.cpp:12:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kcircumfrence[m[K’ was not declared in this scope
+  std:cout << "The circumference is " << circumfrence << std::endl;
+[01;32m[K                                         ^[m[K
+[01m[Kfile3.cpp:15:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+ }
+[01;32m[K ^[m[K
+--2018-09-07 10:08:20--  http://tars.clarkson.edu/cs141/lab2/file4.cpp
+Resolving tars.clarkson.edu (tars.clarkson.edu)... 128.153.4.54
+Connecting to tars.clarkson.edu (tars.clarkson.edu)|128.153.4.54|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://tars.clarkson.edu/cs141/lab2/file4.cpp [following]
+--2018-09-07 10:08:20--  https://tars.clarkson.edu/cs141/lab2/file4.cpp
+Connecting to tars.clarkson.edu (tars.clarkson.edu)|128.153.4.54|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 273 [text/plain]
+Saving to: ‘file4.cpp.1’
+
+ 0% [                                       ] 0           --.-K/s              100%[======================================>] 273         --.-K/s   in 0s      
+
+2018-09-07 10:08:20 (21.4 MB/s) - ‘file4.cpp.1’ saved [273/273]
+
+[01m[Kfile4.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[Kfile4.cpp:6:24:[m[K [01;35m[Kwarning: [m[Koverflow in implicit constant conversion [-Woverflow]
+  int worldPopulation = 7.5E9;
+[01;32m[K                        ^[m[K
+[1;32mstewarrt@polaris[m:[1;34m~/cs141/lab2/original[m$ exit
+exit
+
+Script done on Fri 07 Sep 2018 10:08:21 AM EDT

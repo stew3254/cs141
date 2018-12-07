@@ -1,0 +1,11 @@
+[!] New User account created!
+[*] User: John Cena
+[*] Account ID: 123-456-7890
+[*] Initial Balance: 100
+[!] Updating balance for user
+[!] User: John Cena
+[!] Account ID: 123-456-7890
+[*] Action: Deposit
+[*] Starting Balance: 100
+[*] Deposit Amount: 1
+[*] Ending Balance: 101
